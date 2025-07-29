@@ -1,4 +1,4 @@
-#incclude "Quran.h"
+#include "Quran.h"
 
 int main(){
     
