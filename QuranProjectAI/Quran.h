@@ -21,4 +21,5 @@ class HachQuran{
    ~HachQuran();
    void ajouter(char* , int,int , char*);
    void lecteur();
+   void rechercheMot(char *);
 };

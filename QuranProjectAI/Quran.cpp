@@ -14,7 +14,9 @@ HachQuran::HachQuran(){
     
     for (int i = 0; i < nombre_surat; i++)
       courant[i] = tete[i] = NULL;
-    nomDesSurat = {"Fatiha","Baqara"};  
+  char nomSurat[114][50] = {"Al-Fatiha","Al-Baqara"};
+   for(int i = 0 ; i < 2 ; i++)
+     strcpy(nomDesSurat[i] , nomSurat[i]);
   
 }
 
@@ -59,5 +61,10 @@ void HachQuran::lecteur(){
         }
     }
   }
+
+}
+
+void HachQuran::rechercheMot(char *mot){
+
 
 }
